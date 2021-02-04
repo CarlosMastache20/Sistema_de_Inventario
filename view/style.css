@@ -1,0 +1,179 @@
+/*Imports del font*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@700&display=swap');
+
+/*Estilos generales*/
+input:focus, input.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+.btn-salir{
+    background-color: #ffffff !important;
+    color: black !important;
+    width: 150px !important;
+}
+
+.btn-salir:hover{
+    background-color: rgb(240, 64, 24) !important;
+    color: white !important;
+}
+/*Login*/
+
+/*.l-img1{
+    background-image: url('img/limg1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center center center;
+    background-size: cover;
+}*/
+
+.link-registro{
+    text-decoration: none !important;
+    color: teal !important;
+}
+
+
+.link-registro:hover{
+    text-decoration: underline !important;
+}
+
+.l-card1{
+    background-image: url('img/limg2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center center center;
+    background-size: cover;
+    border-left: none !important;
+    border-top: none !important;
+    box-shadow: 2px 2px 5px #999;
+    width: 400px !important;
+    height: 500px !important;
+    padding-top: 40px !important;
+    margin-top: 60px !important;
+    border-radius: 10px !important;
+}
+
+.l-inp1{
+    color: teal !important;
+    font-weight: bold !important;
+    background-color: rgb(208, 205, 218) !important;
+    margin-left: 49px !important;
+    width: 268px !important;
+    font-size: 14px !important;
+    font-family: 'Cabin Condensed', sans-serif;
+    
+}
+
+.l-inp1::placeholder { 
+    color: rgba(0, 128, 128, 0.871) !important; 
+    font-weight: bold !important;
+    font-family: 'Cabin Condensed', sans-serif; 
+}
+
+.l-btn1{
+    color: teal !important;
+    font-weight: bold !important;
+    background-color: rgb(208, 205, 218) !important;
+    width: 268px !important;
+    box-shadow: 2px 2px 5px #999;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.l-ico1{
+    color: rgb(208, 205, 218) !important;
+    font-size: 75px !important;
+}
+
+/*Personal*/
+.bodyP{
+    background-color: #6CAFFE!important;
+}
+
+.title1{
+    padding-top: 35px !important;
+    color: white;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.title2{
+    color: white;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.card1P{
+    width: 18rem; 
+    border-radius: 10px !important; 
+}
+
+/*Inventario*/
+.tr_op3{
+    width: 190px !important;
+}
+
+.title1I{
+    font-weight: bolder !important;
+}
+
+/*Inventario -> Tabla*/
+.thead{
+    font-weight: bolder !important;
+    color: black !important;
+    background-color: rgb(245, 245, 245) !important;
+}
+
+.tr:hover{
+    font-weight: bolder !important;
+    color: black !important;
+    background-color: rgb(245, 245, 245) !important;
+}
+
+.tr_op{
+    width: 280px !important;
+}
+
+.tr_op2{
+    width: 180px !important;
+}
+
+.tr_op3{
+    width: 190px !important;
+}
+
+/*Punto Venta*/
+.Boton8{
+    text-transform: none !important;
+}
+
+.Boton5{
+    background-color: rgb(252, 125, 142) !important;
+    border-style: none !important;
+    border-color: white !important;
+    text-transform: none !important;
+    border-radius: 30px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.Boton4{
+    background-color: rgb(46, 179, 116) !important;
+    border-style: none !important;
+    border-color: white !important;
+    text-transform: none !important;
+    border-radius: 30px !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+
+.Boton3{
+    background-color: rgb(50, 148, 212) !important;
+    border-style: none !important;
+    border-color: white !important;
+    text-transform: none !important;
+    border-radius: 30px !important;
+    color: white !important;
+    text-align: center !important;
+}
